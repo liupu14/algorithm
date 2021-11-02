@@ -28,7 +28,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main4CompareTwoArray">
+    <configuration name="Main4CompareTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.liupu14.Main4CompareTwoArray" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.liupu14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main4SumArrayElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.liupu14.Main4SumArrayElements" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.liupu14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main4SumTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.liupu14.Main4SumTwoNumbers" />
       <module name="java" />
@@ -44,6 +70,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main4CompareTwoArray" />
+        <item itemvalue="Application.Main4SumArrayElements" />
         <item itemvalue="Application.Main4SumTwoNumbers" />
       </list>
     </recent_temporary>
@@ -59,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635843519059</updated>
-      <workItem from="1635843520621" duration="609000" />
+      <workItem from="1635843520621" duration="6030000" />
     </task>
     <servers />
   </component>
