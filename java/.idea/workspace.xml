@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b11dedb1-3d29-4e4c-8120-cdbc7f3389e0" name="Changes" comment="" />
+    <list default="true" id="b11dedb1-3d29-4e4c-8120-cdbc7f3389e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/liupu14/Main4MatrixDIagMinus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/liupu14/Main4CompareTwoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/liupu14/Main4CompareTwoArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +33,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Main4CompareTwoArray">
+  <component name="RunManager" selected="Application.Main4MatrixDIagMinus">
     <configuration name="Main4CompareTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.liupu14.Main4CompareTwoArray" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.liupu14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main4MatrixDIagMinus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.liupu14.Main4MatrixDIagMinus" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -70,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main4MatrixDIagMinus" />
         <item itemvalue="Application.Main4CompareTwoArray" />
         <item itemvalue="Application.Main4SumArrayElements" />
         <item itemvalue="Application.Main4SumTwoNumbers" />
@@ -87,11 +106,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635843519059</updated>
-      <workItem from="1635843520621" duration="6030000" />
+      <workItem from="1635843520621" duration="6651000" />
+      <workItem from="1635852806754" duration="8000" />
+      <workItem from="1635925062627" duration="2493000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -35,7 +35,7 @@ public class Main4CompareTwoArray {
         List<Integer> lst = new ArrayList<>();
         for (int i = 0; i < arr1.size(); i++) {
             if (arr1.get(i) > arr2.get(i)){
-                aWInNumber ++;
+                aWInNumber++;
             } else if(arr1.get(i) < arr2.get(i)){
                 bWinNumber++;
             } else{
