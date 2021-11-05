@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b11dedb1-3d29-4e4c-8120-cdbc7f3389e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/liupu14/Main4CountMaxValuesNums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/liupu14/Main4CountPosANDNegRatio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/liupu14/Main4MinMaxSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/liupu14/Main4PrintFormatPound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/liupu14/TimeConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/countMaxValuesNums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/countPosANDNegRatio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/minMaxSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/printFormatPound.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/timeConversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/liupu14/BillSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/liupu14/GradeRound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/calCommonFactor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/gradeRound.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/github/liupu14/Main4MatrixDIagMinus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/com/github/liupu14/Main4MatrixDIagMinus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/com/github/liupu14/Main4MinMaxSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/com/github/liupu14/Main4MinMaxSum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +36,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Application.TimeConversion">
+  <component name="RunManager" selected="Application.BillSplit">
+    <configuration name="BillSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.liupu14.BillSplit" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.liupu14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeRound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.liupu14.GradeRound" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.liupu14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main4CountMaxValuesNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.liupu14.Main4CountMaxValuesNums" />
       <module name="java" />
@@ -56,34 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main4CountPosANDNegRatio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.liupu14.Main4CountPosANDNegRatio" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.liupu14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main4MinMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.liupu14.Main4MinMaxSum" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.liupu14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main4PrintFormatPound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.liupu14.Main4PrintFormatPound" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BillSplit" />
+        <item itemvalue="Application.GradeRound" />
         <item itemvalue="Application.TimeConversion" />
         <item itemvalue="Application.Main4CountMaxValuesNums" />
         <item itemvalue="Application.Main4MinMaxSum" />
-        <item itemvalue="Application.Main4PrintFormatPound" />
-        <item itemvalue="Application.Main4CountPosANDNegRatio" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +126,8 @@
       <workItem from="1635843520621" duration="6651000" />
       <workItem from="1635852806754" duration="8000" />
       <workItem from="1635925062627" duration="8844000" />
-      <workItem from="1635994585263" duration="4501000" />
+      <workItem from="1635994585263" duration="8205000" />
+      <workItem from="1636084372843" duration="2078000" />
     </task>
     <servers />
   </component>
