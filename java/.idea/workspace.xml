@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b11dedb1-3d29-4e4c-8120-cdbc7f3389e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/liupu14/DayOfProgrammer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/liupu14/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/github/liupu14/Main4MinMaxSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/com/github/liupu14/Main4MinMaxSum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Application.DayOfProgrammer">
+  <component name="RunManager" selected="Application.Factorial">
     <configuration name="BillSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.liupu14.BillSplit" />
       <module name="java" />
@@ -61,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeRound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.liupu14.GradeRound" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.liupu14.Factorial" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main4CountMaxValuesNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.liupu14.Main4CountMaxValuesNums" />
+    <configuration name="GradeRound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.liupu14.GradeRound" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -102,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.DayOfProgrammer" />
         <item itemvalue="Application.BillSplit" />
         <item itemvalue="Application.GradeRound" />
         <item itemvalue="Application.TimeConversion" />
-        <item itemvalue="Application.Main4CountMaxValuesNums" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +124,7 @@
       <workItem from="1635994585263" duration="8205000" />
       <workItem from="1636084372843" duration="2078000" />
       <workItem from="1636122979172" duration="338000" />
+      <workItem from="1636639853213" duration="543000" />
     </task>
     <servers />
   </component>
