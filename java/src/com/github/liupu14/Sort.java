@@ -6,9 +6,10 @@ import java.util.List;
 public class Sort {
 
     public static void main(String[] args) {
-        int[] list = {1};
+        int[] list = {1,3,5,2,7};
         System.out.println(Arrays.toString(selectSort(list)));
         System.out.println(Arrays.toString(bubbleSort(list)));
+        System.out.println(Arrays.toString(insertSort(list)));
 
     }
 
@@ -36,6 +37,26 @@ public class Sort {
                     swap(nums,jj,jj+1);
                 }
             }
+        }
+        return nums;
+    }
+
+    public static int[] insertSort(int[] nums){
+        if (nums==null || nums.length<=1){
+            return nums;
+        }
+        for (int i = 1; i < nums.length; i++) {
+            int temp = nums[i];
+            int position = i -1;
+            while (position>=0){
+                if (nums[position]>temp){
+                    nums[position+1] = nums[position];
+                    position--;
+                } else{
+                    break;
+                }
+            }
+            nums[position+1] = temp;
         }
         return nums;
     }
