@@ -99,7 +99,7 @@ public class DescriptiveStatistics {
     public static double calMedian(double[] nums){
         Arrays.sort(nums);
         if(nums.length/2==0){
-            return (nums[nums.length/2-1] + nums[nums.length])/2.0;
+            return (nums[nums.length/2-1] + nums[nums.length/2])/2.0;
         } else {
             return nums[nums.length/2];
         }
@@ -193,6 +193,51 @@ public class DescriptiveStatistics {
         return calKurtosis(this.nums);
     }
 
+    // 数组进行标准化
+    public static double[] minMaxStandard(double[] nums){
+        double[] res = new double[nums.length];
+        double range = calRange(nums);
+        double min = calMin(nums);
+        for (int i = 0; i < nums.length; i++) {
+            res[i] = (nums[i]-min) / range;
+        }
+        return res;
+    }
+
+    public static double[] normStandard(double[] nums){
+        double[] res = new double[nums.length];
+        double average = calMean(nums);
+        double std = calStd(nums);
+        for (int i = 0; i < nums.length; i++) {
+            res[i] = (nums[i] - average) / std;
+        }
+        return res;
+    }
+
+    public double[] getNormalization(String method){
+        if("min-max".equals(method)){
+            return minMaxStandard(this.nums);
+        } else {
+            return normStandard(this.nums);
+        }
+    }
+
+    public double[] getNormalization(){
+        return minMaxStandard(this.nums);
+    }
+
+    // 计算截尾均值
+    public static double calTrimMean(double[] nums,double p){
+        Arrays.sort(nums);
+        int down = (int) Math.floor(p * nums.length);
+        int up = (int) Math.ceil((1-p)*nums.length);
+        double[] newArr= Arrays.copyOfRange(nums,down,up);
+        return calMean(newArr);
+    }
+
+    public double getTrimMean(double p){
+        return calTrimMean(this.nums,p);
+    }
 
 
 }
