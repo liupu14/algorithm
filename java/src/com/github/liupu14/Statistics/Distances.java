@@ -74,4 +74,20 @@ public class Distances {
         return calCosineSimilarity(this.nums1,this.nums2);
     }
 
+    // 计算曼哈顿距离
+    public static double calMahatanDistance(double[] nums1,double[] nums2){
+        if(nums1.length != nums2.length){
+            throw new IllegalArgumentException("数组不一致");
+        }
+        double temp = 0.0;
+        for (int i = 0; i < nums1.length; i++) {
+            temp += Math.abs(nums1[i]-nums2[i]);
+        }
+        return temp;
+    }
+
+    public double getManhatanDistance(){
+        return calMahatanDistance(this.nums1,this.nums2);
+    }
+
 }
