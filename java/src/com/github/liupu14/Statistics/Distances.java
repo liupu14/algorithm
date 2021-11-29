@@ -90,4 +90,21 @@ public class Distances {
         return calMahatanDistance(this.nums1,this.nums2);
     }
 
+    // 计算车比雪夫距离
+    public static double calChebyshevDistance(double[] nums1,double[] nums2){
+        double temp = 0.0;
+        for (int i = 0; i < nums1.length; i++) {
+            double range = Math.abs(nums1[i] - nums2[i]);
+            if (range>=temp){
+                temp = range;
+            }
+        }
+        return temp;
+    }
+
+    public double getChebyshevDistance(){
+        return calChebyshevDistance(this.nums1,this.nums2);
+    }
+
+
 }
